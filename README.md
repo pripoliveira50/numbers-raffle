@@ -5,6 +5,6 @@
 
 ## 🚀 Technologies
 
--[x] Javascript
--[x] Html
--[x] Codesandbox
+- [x] Javascript
+- [x] Html
+- [x] Codesandbox
