@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Draw of Numbers</title>
+    <meta charset="UTF-8" />
+    <script>
+      function randomNumber() {
+        var max = document.getElementById("max").value;
+        max = parseInt(max);
+        var randomNumber = Math.floor(Math.random() * max) + 1;
+        document.getElementById("result").innerHTML =
+          "Draw number " + randomNumber;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Draw of Numbers</h1>
+    <label for="max">Maximum number to be drawn:</label>
+    <input type="number" id="max" name="max" required />
+    <button onclick="randomNumber()">Raffle</button>
+    <div id="result"></div>
+  </body>
+</html>
